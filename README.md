@@ -1,21 +1,34 @@
+# 🔐 Image Encryption Tool
+
+## 📝 Task Overview
+
+Develop a **simple image encryption tool** using **pixel manipulation** techniques. This tool enables image encryption and decryption by modifying pixel values through operations such as:
+- Swapping pixel positions
+- Applying mathematical transformations (e.g., addition, subtraction, XOR)
+
 ---
 
 ## 🚀 Features
 
-- Load any `.jpg` or `.png` image
-- Swap pixels randomly
-- Apply pixel-wise transformations (e.g., invert, XOR)
-- Save the encrypted image
+- 🔄 Encrypt and decrypt images using reversible logic
+- 🔢 Apply pixel transformations such as:
+  - Value shifting (`+n` / `-n`)
+  - Pixel value inversion (`255 - pixel`)
+  - XOR encryption with a secret key
+  - Swapping pixels in a predefined/random pattern
 
 ---
 
 ## 🧰 Requirements
 
 - Python 3.x
-- `numpy`
-- `opencv-python`
+- Required Python packages:
+  - `Pillow` – for image processing
+  - `NumPy` – for efficient pixel matrix handling
 
-Install dependencies:
+### 📦 Install Dependencies
+
+Run the following command to install required packages:
 
 ```bash
-pip install numpy opencv-python
+pip install pillow numpy
