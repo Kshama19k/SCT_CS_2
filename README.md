@@ -32,3 +32,6 @@ Run the following command to install required packages:
 
 ```bash
 pip install pillow numpy
+python image_encryptor.py --mode encrypt --input input_image.png --output encrypted_image.png --key 42
+python image_encryptor.py --mode decrypt --input encrypted_image.png --output decrypted_image.png --key 42
+
