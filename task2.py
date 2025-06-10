@@ -4,7 +4,7 @@ import os
 import sys
 
 def swap_pixels(img_array):
-    # Reverse the image pixel array (vertical flip)
+   
     return img_array[::-1]
 
 def math_operation(img_array, operation='add', value=50):
